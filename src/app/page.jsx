@@ -1,10 +1,12 @@
+'use client';
+
 import React, { useState } from 'react';
-import RoleSelector from './components/RoleSelector';
-import Journey from './components/Journey';
-import Timeline from './components/Timeline';
-import ScenarioHelp from './components/ScenarioHelp';
-import QuickQA from './components/QuickQA';
-import UsefulLinks from './components/UsefulLinks';
+import RoleSelector from '../components/RoleSelector';
+import Journey from '../components/Journey';
+import Timeline from '../components/Timeline';
+import ScenarioHelp from '../components/ScenarioHelp';
+import QuickQA from '../components/QuickQA';
+import UsefulLinks from '../components/UsefulLinks';
 import { ArrowLeft } from 'lucide-react';
 
 function App() {
